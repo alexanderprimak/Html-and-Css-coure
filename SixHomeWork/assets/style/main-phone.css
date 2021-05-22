@@ -1,0 +1,168 @@
+@media (min-width: 640px) {
+
+    .container {
+        max-width: 640px ;
+    }
+    .icon {
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .gray_icon,.green_icon,.light-blue_icon,.dark-pink_icon {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .title_delivering {
+        text-align: center;
+    }
+ }
+
+
+ @media (min-width: 1200px) {
+     .container {
+         max-width:1170px ;
+     }
+    .title_delivering h2 {
+        display: inline-block;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+    }
+    .title_delivering p,.icon h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .title_delivering p {
+        margin-top: 15px;
+        margin-bottom:40px;
+    }
+    .title_delivering span {
+        color:black;
+    }
+    .circle {
+        border-radius:50%;
+        width:70px;
+        height: 70px;
+        background-color: #C4C4C4;
+    }
+    
+    .icon h3 {
+        font-weight: bold;
+        letter-spacing: 0.25px;
+        margin-top: 18px;
+        margin-bottom: 12px;
+    }
+    
+    .icon p,.icon button {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .icon p {
+        margin-bottom:8px;
+        color: #5C5C5C;
+    }
+    .icon {
+        width: 48.72%;
+    }
+    .gray_icon,.green_icon,.light-blue_icon,.dark-pink_icon {
+        width:270px;
+    }
+    
+    .icon button {
+        width:146px;
+        height:48px;
+        border: 1px solid #ADADAD;
+        color: #6C5CE7;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        border-radius:18px;
+        background: none;
+    }
+    
+    .icon +.icon {
+        margin-top:0px;
+        margin-left: 10px;
+    }
+
+    
+    .green {
+        background-color: #0984E3;
+    }
+    .light-blue {
+        background-color: #00B894;
+    }
+    
+    .dark-pink {
+        background-color:#6C5CE7 ;
+    }
+
+    .gray {
+        background-color:#E84393;
+
+    }
+
+    .gray_icon,.green_icon,.light-blue_icon,.dark-pink_icon {
+        display: flex;
+        flex-direction:none;
+        align-items:start;
+        margin-bottom: 20px;
+        text-align:left;
+    }
+    .icon {
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    .info_icons {
+        display: flex;
+    }
+
+ .icon .mobile {
+    display: none;
+}
+
+  .icon .dectop {
+      margin-top: 4px;
+      width: 100%;
+      background: no-repeat center top/cover;
+      display: block;
+ }
+
+
+ .mobile_text {
+     display: none;
+ }
+
+ .dectop_text {
+     display: flex;
+ }
+
+ .title_delivering{
+     text-align: start;
+ }
+
+ .title_delivering .vialet {
+     color: black;
+ }
+
+ .title_delivering h2::after {
+     content:" 🚚💨";
+     
+ }
+
+ }
+
+ @media (min-width:1400px) {
+    .container{
+        max-width:1170px;
+    }
+ }
+
+
+
