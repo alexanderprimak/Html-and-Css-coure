@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    background-color: black;
+    padding:20px;
+}
+
+.parent {
+    padding: 5px ;
+    display: grid;
+    grid-template-columns: 0.6fr 2fr 5fr   ;
+    grid-template-rows: 0.4fr  1fr 1fr 0.4fr ;
+    width:100%;
+    max-width: 1200px;
+    height:600px;
+    margin: 0px auto;
+    background-color: white;
+    grid-gap:5px;
+
+                /* Второй способ !!!! */
+
+    /* grid-template-areas:
+                        "meny  header header"
+                        "meny  conten sub-meny"
+                        "meny  conten sub-meny"
+                        "meny  footer footer"
+                        "meny  footer footer"
+                        ; */
+                        
+}
+
+.child { 
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+
+.header {
+    /* grid-area:header; */
+   grid-area:2/4/1/2;
+}
+
+.menu {
+    /* grid-area:meny; */
+    padding-top: 15px;
+    text-align: center;
+    grid-area:5/2/1/1;
+
+}
+.sub-meny {
+    /* grid-area:sub-meny; */
+    grid-area:4/3/2/2;
+
+}
+.footer {
+    /* grid-area:footer; */
+    grid-area:5/4/4/2;
+   
+
+}
+.content {
+    /* grid-area:conten; */
+    grid-area:4/4/2/3;
+
+}
+.child:not(.menu){
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
