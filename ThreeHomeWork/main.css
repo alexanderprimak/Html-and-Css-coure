@@ -1,0 +1,156 @@
+*{ 
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.content {
+    padding: 7px 17px;
+    width: 1130px;
+    margin:0px auto;
+}
+header {
+    margin-bottom: 42px;
+  color:white;
+  padding: 281px 88px 32px 25px;
+  background:url(../img/1.jpg) no-repeat center top /cover;
+}
+header h2 {
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-weight:normal;
+}
+header span {
+    font-size: 15px;
+}
+header span+span {
+    margin-left:9px;
+    padding-left:9px;
+    border-left: 1px solid white;
+}
+header span:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+/* ################################ */
+
+main {
+    display: flex;
+}
+.info {
+    padding-top: 10px;
+    width: 240px;
+}
+.info.first {
+    padding-top:0px;
+}
+.info h2,.content-right h2,h3 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: green;
+}
+.first{
+    padding-top: 0px;
+    border-bottom: 1px solid gray;
+}
+.info h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+.main-content b {
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+}
+.info p {
+    line-height:1.5;
+    margin-bottom: 8px;
+}
+ .info span:hover {
+    cursor: pointer;
+    color:blue;
+}
+/* ############################### */
+
+.info-pikche {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    margin-left: 29px;
+    width:482px;
+}
+[none-border="#"] {
+    border-bottom:0px solid;
+}
+.text-img {
+    position: relative;
+}
+.text-img img {
+    top:0px;
+    right: 0px;
+    position: absolute;
+}
+.info-pikche span:hover {
+    cursor: pointer;
+    color:blue;
+
+}
+.info-pikche h2 {
+    font-size:22px ;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 250px; 
+    margin-top: 27px;
+}
+.info-pikche+.info-pikche {
+    margin-top:37px ;
+}
+.content-right {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text-button  {
+    background: #F9F9F7;
+    position: relative;
+    padding: 17px 0px  12px 108px;
+}
+
+.text-button img {
+    left:12px;
+    top:29px; 
+    position:absolute;
+}
+ content p {
+    font-size: 10px;
+    margin-bottom: 28px;
+}
+.content-right button {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: normal;
+    border-radius:6px;
+    border: 0px solid ;
+    width: 197px;
+    margin-right: 18px;
+    color: white;
+    background: #FFD606;
+    padding:7px 0px;
+}
+
+.content-right button:before {
+height: 0%;
+width: 2px;
+}
+.content-right button:hover {
+    cursor: pointer;
+box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+-4px -4px 6px 0 rgba(116, 125, 136, .2),  
+inset -4px -4px 6px 0 rgba(255,255,255,.5),
+inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+.content-right h3 {
+padding-left:99px ;
+color: cornflowerblue;
+}
+
