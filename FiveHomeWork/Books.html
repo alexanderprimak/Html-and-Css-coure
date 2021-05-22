@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+</head>
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        padding:10%;
+    }
+    .block-child,.block-parents{
+        padding-top: 15px;
+        color:black;
+        text-align: center;
+        width:100px;
+        height: 100px;
+
+    }
+    .block-child {
+        font-size: 11px;
+        position: absolute;
+        left:0px;
+        top:0px;
+        transition: all 2s;
+        transform-origin: top left;
+        transform:rotateY(-40deg);
+        background-color: #C5C5C5;
+    }
+
+    .block-parents {
+        color: white;
+        position: relative;
+        font-size: 6px;
+        perspective:260px;
+        margin: 0px auto;
+        background-color: #DE606F;
+
+    }
+
+    .block-parents+.block-parents{
+        margin-top:50px;
+
+    }
+
+    .block-child.two{
+        transform:rotateY(-33deg);
+
+    }
+
+    .block-child:hover {
+        cursor: pointer;
+        transform:rotateY(-0deg);
+
+    }
+
+     .block-child img {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        background:no-repeat center top /cover ;
+    }
+
+</style>
+    <body>
+        <div class="block-parents">
+            An important point: in fact, a real programmer does not care what language to write code in. 
+            The syntax can be Googled or peeped somewhere, 
+            the main thing is to understand the logic of programming in general.
+            <div class="block-child two"> How to become a great programmer
+            <img src="https://pozitivim.com/wp-content/uploads/2019/06/coding-1294361_960_720-700x666.png" alt="">       
+            </div>
+        </div>
+        <div class="block-parents">
+            An important point: in fact, a real programmer does not care what language to write code in.
+            The syntax can be Googled or peeped somewhere,
+            the main thing is to understand the logic of programming in general.
+            <div class="block-child">
+                How to become a great programmer
+                <img src="https://pozitivim.com/wp-content/uploads/2019/06/coding-1294361_960_720-700x666.png" alt=""> 
+            </div>
+        </div>
+        
+    </body>
+</html>
