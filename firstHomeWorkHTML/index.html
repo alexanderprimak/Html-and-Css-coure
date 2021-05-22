@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+
+
+                   <!--  !-- Style Сss!!!! --> 
+ <style>
+
+ 	*{
+ 		box-sizing: border-box;
+ 	}
+ 	
+ 	body p {
+ 		margin: 0px;
+ 	}
+
+ .container {
+    width: 550px;
+    margin:0px auto;
+ }
+.Content {
+	background: #DCD0D0;
+}
+ /*/////////////////////////////* or Header*/
+
+ .Header {
+ 	background: #4B4B4B;	
+ }
+ .container.Header {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding: 10px 0px 29px 0px;
+ }
+
+ .Logo p,h1 {
+ 	margin-bottom: 0px;
+ 	margin-top: 0px;
+ }
+
+.Logo h1 {
+	font-size: 36px;
+	font-family:Chewy;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+.Input span {
+	font-size: 9px;
+	padding-top: 1px;
+	padding: 1px;
+	padding-left: 10px;
+	padding-right:10px;
+	/*padding: 3px 10px 3px 10px;*/
+}
+
+/*////////////////////////////////*End Header*/
+
+.content-Right.content-Left {
+	display: inline-block;
+} 
+
+.main-Header {
+	margin-bottom: 10px; 
+	margin-top: 10px;
+	
+	padding-bottom: 2px;
+	background: #1F77A5;
+}
+
+.main-Header a {
+	vertical-align: middle;
+	margin-left: 22px;
+	font-size:8px; 
+	text-decoration:none;
+	color: white;
+}
+
+
+a:hover {
+	padding:4px 4px 4px 4px;
+	background: #02466B;
+	border-radius:27px; 
+}
+
+.main-Content {
+	padding-bottom: 21px;
+	display: flex;
+	padding-left: 7px;
+	background: white;
+}
+
+.img {
+	padding-top: 71px;
+	display: flex;
+	justify-content: space-between;
+
+	width: 370px;
+	height: 170px;
+	background: url(img/1.jpg)no-repeat center top /cover;  
+}
+
+.Arrow  {
+	padding-top: 12px;
+	padding-left: 4px;
+	display: inline-block;
+	width: 22px;
+	height: 37px;
+	background: black;
+	opacity: 0.7; 
+}
+
+.Sircles {
+	display: inline;
+	padding-left: 165px;
+    
+	margin-top: 7px;
+	display: flex;
+	
+}
+
+.circle {
+	margin-left: 4px; 
+	background: gray;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+}
+
+.circle:hover {
+	background: black;
+	cursor: pointer;
+}
+
+
+.Title-text {
+	margin-top: 23px;
+}
+.Title-text h2 {
+	margin-top: 0px;
+	color: #1F77A5;
+	margin-bottom: 2px; 
+	font-size: 12px;
+
+}
+.Title-text p {
+	margin-bottom: 5px;
+	margin-top: 2px;
+	font-size: 9px;
+	color: gray;
+}
+
+.Text-sircle {
+	margin-bottom:5px;
+	float: left;
+	margin-right:20px; 
+	 
+}
+
+button {
+	margin-top: 3px;
+	position: absolute;
+	right: 0px;
+	font-size:8px;
+	padding: 3px 5px 3px 5px;
+	border:0px solid;
+	background: #E0E0E0;
+}
+
+button:hover {
+	background: #1F77A5;
+	cursor: pointer;
+}
+
+ .section-Img-Text p {
+ 	text-align:left;
+ }
+
+ /*End left  main*//*//////////////////////*/
+
+.Right-text-header {
+	margin-right: 0px;
+	width:130px; 
+}
+
+.Right-text-header b {
+	font-size: 10px;
+	color: #1F77A5;
+}
+
+
+.Right-header {
+	border: 1px solid #1F77A5 ;
+	margin-bottom: 20px;
+	padding-top: 6px;
+	padding-left: 27px;
+	font-size:12px;
+	color: white;
+	margin-top: 3px;
+	margin: 0px;
+	width: 160px;
+	height: 27px;
+	background: url(img/3.png); 
+}
+
+.Style-Text  {
+	text-align: left;
+	font-size: 10px;
+	color: gray;
+	line-height: 1.5 
+}
+
+.content-Right {
+	margin-top: 11px;
+	margin-left:8px;
+	width: 160px;
+}
+
+.Three-img {
+	width: 35px;
+	height: 35px;
+	border: 2px solid gray;
+	float: left;
+	margin-right:5px; 
+}
+.Style-Text.Right {
+	padding: 14px 11px 0px 11px;
+	width: 160px;
+}
+.Style-Text.Right p {
+	padding: 0px auto;
+}
+/*/////////////////////////*END MAIN CONTENT*/
+.Footer {
+	margin-top: 10px;
+ 	background: #4B4B4B;
+
+}
+.container.Footer {
+	font-weight:lighter;
+	padding-bottom: 24px;
+	padding-top: 20px;
+	padding-right: 40px;
+	justify-content: space-between;
+	display: flex;
+}
+.Section-footer.First {
+	margin-right: px;
+	width: 169px;
+	height: 86px;
+}
+.Section-footer.First p  {
+	text-align: left;
+	line-height: 1.5;
+	margin-bottom: 6px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+}
+.Section-footer h1 {
+	text-align: left;
+	font-size: 12px;
+	color: white;
+}
+.Section-footer.two ul {
+	line-height: 1.5;
+	padding-left: 20px;
+	margin-bottom: 6px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+} 
+.Section-footer.Three {
+	margin-left: 20px;
+	width: 120px;
+}
+.Section-footer.Three img {
+	width: 35px;
+	height: 35px;
+	border: 2px solid white;
+}
+
+.imgs  {
+	margin-top: 5px;
+}
+
+/* //////////////////////*End Footer*/
+
+ h4 {
+ 	font-weight: lighter;
+	margin-top: 3px;
+	margin-bottom:0px;
+	font-size: 10px;
+    color: white; 
+}
+
+.mini-Footer {
+	padding-bottom: 5px;
+	border-top:3px solid white;
+	background: #4B4B4B; 
+}
+.container.mini-footers {
+	text-align: center;
+}
+
+.container.mini-footers a {
+	margin-top: 0px;
+	font-weight: lighter;
+	font-size: 10px;
+	text-decoration:none;
+	color: #1F77A5;
+}
+ </style>                   
+
+<body>
+
+	<div class="Content">
+		<div class="Header">
+			<div class="container Header">     
+				<div class="Logo">
+					<h1 style="color:#2387B9;">zResponsive</h1>      
+					<p style="font-size: 10px; color: white">FreeResponsive Html5 Templates</p>    
+				</div>
+				<div class="Input" style="justify-content:space-between; color: white; margin-right: 33px; margin-top: 14px">
+					<span class="first" style="background: white; color: gray; padding-right: 81px">type here</span>
+					<span class="two" style="background: #A0A0A0; margin-left: -4px">Search</span>
+				</div>
+			</div>
+		</div>
+
+	               <!-- End Header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Конец Сss кода 61 строка  -->
+
+		<div class="Main">
+			<div class="container Main">
+				<div class="main-Header">
+					<nav>
+						<a href="#" style="margin-left: 12px;">Home</a> 
+						<a href="#">Blog</a>
+						<a href="#">Gallery</a>
+						<a href="#">Contact</a>
+						<a href="#">About</a> 
+					</nav>
+				</div>
+				<div class="main-Content" >
+					<div class="content-Left" style="width: 370px; position: relative; margin-top: 7.5px;">
+						<div class="section-Img">
+							<div class="img">
+								<div class="Arrow  left" style="margin-left: 1px;">
+									<img src="img/Arrow left.png" alt="img" style="width: 20px height:5px;">
+								</div>
+								<div class="Arrow  right">
+									<img src="img/Arrow right.png" alt="">
+								</div>
+							</div>
+							<div class="Sircles">
+									<div class="circle" style="margin-left: 0px;"></div> 
+									<div class="circle"></div>
+									<div class="circle"></div>
+									<div class="circle"></div>
+								</div>
+						</div>
+						<div class="section-Img-Text">
+							<div class="Title-text">
+								<h2>Sample post with,Links,paragraph and comments </h1>
+								<p> <i> >>Poited by Admin -01/01/2012-0 Commets </i> </p>
+							</div>
+							<div class="img-text-Buttоn">
+								<p class="Style-Text">
+									<img class="Text-sircle" src="img/9.jpg" alt="img" style="border:2px solid gray;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea Lorem ipsum dolor sit amet, consectetuer .
+									  </p>
+									<button> Read more >> </button>	
+							</div>
+						</div>
+						<div class="section-Img-Text">
+							<div class="Title-text">
+								<div class="Title-text">
+								<h2>This is Just Going To Be Another Test Post  </h1>
+								<p> <i> >>Poited by Admin -01/01/2012-0 Commets </i> </p>
+							</div>
+							<div class="img-text-Buttоn">
+								<p class="Style-Text">
+									<img class="Text-sircle" src="img/2.jpg" alt="img" style="border:2px solid gray;"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation  tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea .ullamcorper suscipit Ut  wisi enim ad minim veniam, quis nostrud exerci tation Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper  suscipit lobortis ullamcorper suscipit is nis lobortis nisl ut aliquip ex ea .ullamcorpersuscipit  suscipit lobortis ullamcorper suscipit lobortis ullamcorper suscipit lobortis tation ullamcorper suscipit lobortis nis lobortis nisl ut aliquip ex ea .ullamcorper suscipit lobortis nisl ut  ea  tation Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper  tation Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.
+									  </p>
+									<button>Read more ></button>	
+							</div>
+							<div class="img-text-Buttоn"></div>
+						</div>
+						<div class="section-Img-Text">
+							<div class="Title-text">
+								<div class="Title-text">
+								<h2>Sample post with,Links,paragraph and comments </h1>
+								<p> <i> >>Poited by Admin -01/01/2012-0 Commets </i> </p>
+							</div>
+							<div class="img-text-Buttоn">
+								<p class="Style-Text ">
+									<img class="Text-sircle" src="img/8.jpg" alt="img" style="border:2px solid gray;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper  suscipit lobortis ullamcorper suscipit is nis lobortis nisl ut aliquip ex ea .ullamcorpersuscipit  suscipit lobortis ullamcorper suscipit lobortis tation ullamcorper suscipit lobortis nis lobortis nisl ut aliquip ex ea .ullamcorperlobortis nisl ut aliquip ex ea .ullamcorper suscipit lobortis nisl ut aliquip ex ea lobortis tation ullamcorper suscipit ullamcorperlobort Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper  suscipit lobortis ullamcorper suscipit is nis   tation Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorpertation Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper lobortis nisl ut aliquip ex ea .ullamcorpersuscipit  suscipit lobortis.</p>
+									<button>Read more ></button>										
+							</div>	
+						</div>
+					</div>
+			</div>
+		</div>
+			
+
+			<!-- End left Main!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Конец Сss кода 170 строка -->
+
+					<div class="content-Right" style="display: inline-block;">
+						<div class="Right-text-header" >
+							<div class="Right-header">About us</div>
+							<p class="Style-Text" style="padding: 11px 12px 20px 12px; width: 160px; text-align: justify;" >
+								Lorem ipsum dolor sit amet,  <b>consectetuer adipiscing</b> elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							</p>
+						</div>
+						<div class="Right-text-header">
+							<div class="Right-header">Categories</div>
+							<ul class="Style-Text"  style="padding-left: 15px; margin-left: 11px" >
+								<li>Lorem ipsum dolor</li>
+								<li>consectetuer adipiscing</li>
+								<li>tation euismod</li>
+								<li>euismod tincidunt</li>
+								<li>laoreet dolore</li>
+							</ul>
+						</div>
+						<div class="Right-text-header">
+							<div class="General">
+							        <div class="Right-header">Link List</div>
+							            <ul class="Style-Text" style="padding-left: 15px;  margin-left: 11px">
+											<li>Lorem ipsum dolor</li>
+											<li>consectetuer adipiscing</li>
+											<li>tation euismod </li>
+											<li>euismod tincidunt</li>
+											<li>laoreet dolore</li>
+										</ul>
+						    </div>
+						</div>
+						<div class="Right-text-header">
+									<div class="Right-header">Popular Post</div>
+										<div class="section">
+											<p class="Style-Text    Right"> <img src="img/4.jpg" alt="img" class="Three-img"> <b>Sample post with,Links,paragraph and comments. </b> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+								    		</p>
+										</div>
+										<div class="section-2">
+											<p class="Style-Text    Right"> <img src="img/6.jpg" alt="img" class="Three-img"> <b> This is Just Going To Be Another Test Post.</b> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+								    		</p>
+										</div>
+										<div class="section-3">
+											<p class="Style-Text  Right"> <img src="img/7.jpg" alt="img" class="Three-img" style=""> <b>Samplepost with,Links,paragraph and comments.</b>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex.
+								 			</p>
+										</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+	</div>
+
+                                     <!-- End Main!!!!!!!!!!!!!!!!!!!!!!!!!Конец Сss кода 225 строка  -->
+	
+	<div class="Footer"> 
+		<div class="container Footer">
+			<div class="Section-footer First">
+				<h1>ABOUT US</h1>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+			</div>
+			<div class="Section-footer two">
+				<h1>CATEGORIES</h1>
+				<ul>
+					<li>Lorem ipsum dolor sit  </li>
+					<li>Lorem ipsum dolor sit consectetue</li>
+					<li>Lorem ipsum dolor sit consectetuer</li>
+					<li>Lorem ipsum dolor sit</li>
+					<li>Lorem ipsum dolor sitconsectetuer </li>
+				</ul>
+			</div>
+			<div class="Section-footer Three">
+				<h1>FEATURED POST</h1>
+				<div class="imgs">
+					<img src="img/4.jpg" alt="img">
+					<img src="img/6.jpg" alt="img">
+					<img src="img/7.jpg" alt="img">
+					<img src="img/4.jpg" alt="img">
+					<img src="img/6.jpg" alt="img">
+					<img src="img/7.jpg" alt="img">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+                              <!--   End mini-Footer!!!!!!!!!!!!!!!!!!!!!!!!!!!! Конец Сss кода 316 строка -->
+
+	<div class="mini-Footer">
+		<div class="container mini-footers">
+			<h4>Copight@2012-Domain Name</h4>
+			<a href="#">shopandshow.by телемагазин</a>
+		</div>
+	</div>
+</body>
+</html>
