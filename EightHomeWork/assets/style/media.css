@@ -1,0 +1,36 @@
+@media (max-width:1024px) {
+    .container {
+        padding: 30px 110px 28px 110px;
+        max-width: 1024px;
+        min-height:964px;
+        grid-template-columns:1fr;
+        grid-template-rows:46px 205px 343px 216px;
+        grid-template-areas:"header"
+                            "main"
+                            "main"
+                            "side-bar" ;
+        row-gap:32px ;
+    }
+
+   .bars {
+        column-gap:20px;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+        grid-template-rows:153px;
+        grid-area: side-bar;
+    }
+
+    .none_title {
+        display: flex;
+    }
+
+    main {
+        row-gap:33px;
+        margin-top:0px;
+    }
+
+    .temperatur {
+        column-gap:44px;
+    }
+
+}
